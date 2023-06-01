@@ -1,7 +1,7 @@
 {% extends 'foodfinder/base.html' %}
 
 {% block title %}
-главное про нас
+Вкусные рецепты
 {% endblock %}
 
 {% block content %}
@@ -9,7 +9,7 @@
 <main>
 <div class="recipes">
  <div class ="recipes-item">
-<h2>Плов с курицей</h2>
+<h2><a href="{% url 'plov'%}" class="item">Плов с курицей</a></h2>
 <p>время приготовления - 1 час 20 минут</p>
 <!--<h2>Ингредиенты</h2>  -->
 <ul class = "ingredients-items">
@@ -23,7 +23,7 @@
 	<li>Специи для курицы – 1 ч.л.</li>
 	<li>Перец черный молотый</li>
 </ul>
-<img class="recipes-img" src = "img/picture1.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-72.userapi.com/impg/9Cc-0CGa_4i-EClLEYjsr53_M-p-hRs-amJnRw/lfzx3YkQWIM.jpg?size=1920x1280&quality=96&sign=7188f3609adcb94b09f935261e76a7a5&type=album" width="400px" height="250px">
 </div>
 <!--<h2>Рецепт:</h2>
 <p> 1. Поставьте сковородку на огонь. Вылейте масло. С луковиц уберите верхний слой и мелко нашинкуйте. Подрумяньте в прогретой сковородке.</p>
@@ -35,7 +35,7 @@
 <p> 7. Готовый ароматный плов достаньте из духовки. Блюдо готово!</p>
 -->
 <div class ="recipes-item">
-<h2>Карри с курицей</h2>
+<h2><a href="{% url 'chickcurr'%}" class="item" >Карри с курицей </a></h2>
 <p>Время приготовления - 40 минут</p>
 <!--<h2>Ингредиенты</h2> -->
 <ul class = "ingredients-items">
@@ -49,7 +49,7 @@
 	<li>Куркума — 2 ч. л.</li>
 	<li>Карри — 2 ч. л.</li>
 </ul>
-<img class="recipes-img" src = "img/picture2.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://psv4.userapi.com/c240331/u637955186/docs/d10/d04af62fb44e/picture2.png?extra=ymqtummGUUXU6ME5Rb6_IDmKQDh7j6_TLkD7o0WF4MGVLLD22pI3Jqq3Zg7sgJcNz2xbrjvaYyPAKa7P1FwgoKxOap-bpN32a20g-kDjCKsZcJBhzEr7RGjK8nXbjSFGR6jD5CTpy1_h_OPlODO6vcM" width="400px" height="250px">
 </div>
 <!--<h2>Рецепт:</h2>
 <p> 1. Филе режем на небольшие куски.</p>
@@ -59,7 +59,7 @@
 <p>5. Посыпаем куркумой и карри, вливаем банку кокосового молока, выжимаем сок небольшого лайма и тушим на среднем огне около 40 минут. Блюдо готово!</p>
 -->
 <div class ="recipes-item">
-<h2>Цезарь с курицей</h2>
+<h2><a href="{% url 'cesar'%}" class="item" > Цезарь с курицей</a></h2>
 <p>Время приготовления - 30 минут</p>
 <!--<h2>Ингредиенты</h2> -->
 <ul class = "ingredients-items">
@@ -73,7 +73,7 @@
 	<li>Лимон — по вкусу</li>
 	<li>Итальянские травы — по вкусу</li>
 </ul>
-<img class="recipes-img" src = "img/picture3.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-34.userapi.com/impg/RxRmj8QyByXkIIpb2mSMKLNXClhV9nvedBwMbw/GAoOM3YDQuE.jpg?size=870x480&quality=96&sign=27831af74da8d5aabb9edce0445c3ac8&type=album" width="400px" height="250px">
 </div>
 </div>
 <!--<h2>Рецепт:</h2>
@@ -85,7 +85,7 @@
 
 <div class="recipes">
  <div class ="recipes-item">
-<h2>Паста с креветками в сливочно-чесночном соусе</h2>
+<h2><a href="{% url 'shrimppasta'%}" class="item" > Паста с креветками в сливочно-чесночном соусе</a></h2>
 <p> Время приготовления - 45 минут </p>
 <!--<h2>Ингредиенты</h2> -->
 <ul class = "ingredients-items">
@@ -101,7 +101,7 @@
 	<li> Паприка – 1 ч. ложка </li>
 	<li> Петрушка – 3-4 веточки </li>
 </ul>
-<img class="recipes-img" src = "img/picture4.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://psv4.userapi.com/c236331/u637955186/docs/d54/ae052389d492/picture4.png?extra=1ULiH7JtdyQueW15rZdGcScn1QanHBw72SIKeogTnMtC9A-mdp8ga4t4quHR6TzMng-ae0RUQHF2pUykbjdBAk35SOQ9YEmobDwLlZrsv34CoxqujrZpPSSD46txVGJ7MvC0ONETDE35omSAFHgOjJU" width="400px" height="250px">
 </div>
 <!--<h2>Рецепт:</h2>
 <p> 1.	Промываем и очищаем креветки.</p>
@@ -120,7 +120,7 @@
 <p> 14.	Пасту с креветками посыпаем сыром, измельчённой петрушкой и чёрным перцем. Блюдо готово! </p>
 -->
 <div class ="recipes-item">
-<h2>Рис с креветками в соусе терияки</h2>
+<h2><a href="{% url 'shrimprice'%}" class="item" >Рис с креветками в соусе терияки</a></h2>
 <p> Время приготовления - 50 минут </p>
 <!--<h2>Ингредиенты</h2>  -->
 <ul class = "ingredients-items-shrimps">
@@ -129,7 +129,7 @@
 	<li> Соус терияки — 20 г </li>
 	<li> Оливковое масло </li>
 </ul>
-<img class="recipes-img" src = "img/picture5.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-48.userapi.com/impg/1SSVWs01ZrL9y5vxwtAjguxyAvFHCVaXPhsjJQ/c84GGui2JVE.jpg?size=1280x720&quality=96&sign=8b2c5afb3ac76d95b05477ec3ce69ad4&type=album" width="400px" height="250px">
 </div>
 <!--<h2>Рецепт:</h2>
 <p> 1. Очистить креветки, порезать на одинаковые мелкие кусочки </p>
@@ -138,7 +138,7 @@
 <p> 4. Сверху засыпать отварным рисом, постоянно помешивая, готовить еще 2–3 минуты. Блюдо готово! </p>
 -->
 <div class ="recipes-item">
-<h2>Картофельное рагу</h2>
+<h2><a href="{% url 'kartofragu'%}" class="item" >Картофельное рагу</a></h2>
 <p> Время приготовления - 50 минут </p>
 <!--<h2>Ингредиенты</h2>  -->
 <ul class = "ingredients-items-pure">
@@ -151,7 +151,7 @@
 	<li> Зелень (укроп, петрушка или кинза) - 2 ст. л. </li>
 	<li> Соль - 1 ч. л. </li>
 </ul>
-<img class="recipes-img" src = "img/picture6.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-29.userapi.com/impg/ejPF4CuscCrTGj62MlAXYsOkhNqPzlUAUIx9LA/nt71PIEWH8A.jpg?size=400x400&quality=96&sign=b86e4707a7b454a14bb79a6821252738&type=album" width="400px" height="250px">
 </div>
 </div>
 <!--<h2>Рецепт:</h2>
@@ -163,7 +163,7 @@
 -->
 <div class="recipes">
  <div class ="recipes-item">
-<h2> Драники </h2>
+<h2><a href="{% url 'draniki'%}" class="item" >Драники</a>  </h2>
 <p> Время приготовления - 40 минут </p>
 <!--<h2>Ингредиенты</h2>  -->
 <ul class = "ingredients-items-dranik">
@@ -173,7 +173,7 @@
 	<li> Масло сливочное — 1 ст. л. </li>
 	<li> Сметана — по желанию </li>
 </ul>
-<img class="recipes-img" src = "img/picture7.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-5.userapi.com/impg/POfGJLRAGmonk9YFi_kE3x5m94YeX3cx6JeR-Q/uRSHRt610HM.jpg?size=1200x840&quality=96&sign=6a04f3dc2d887f38324810c0e29422e7&type=album" width="400px" height="250px">
 </div>
  <!--
 <h2>Рецепт:</h2>
@@ -182,7 +182,7 @@
 <p> 3. Обжаривать драники с обеих сторон до золотистой корочки.  Подавать картофельные драники горячими со сметаной. Блюдо готово! </p>
 -->
  <div class ="recipes-item">
-<h2> Картофель по-деревенски </h2>
+<h2><a href="{% url 'dereven'%}" class="item" > Картофель по-деревенски</a>  </h2>
 <p> Время приготовления - 50 минут </p>
 <!--<h2>Ингредиенты</h2>  -->
 <ul class = "ingredients-items">
@@ -194,7 +194,7 @@
 	<li> Соль </li>
 	<li> Перец черный молотый </li>
 </ul>
-<img class="recipes-img" src = "img/picture8.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-31.userapi.com/impg/kaI3vJJ39ESFw2ELGzM4oR5PNjQ2MUGJc4dcdg/upLUUGDJthA.jpg?size=2048x1024&quality=96&sign=9a7d228e5611a0a153e212fc2b9eef44&type=album" width="400px" height="250px">
 </div>
 <!--<h2>Рецепт:</h2>
 <p> 1. Поставьте противень в духовку и разогрейте ее до 220 С. Картофель хорошенько промойте и высушите, нарежьте дольками. </p>
@@ -205,7 +205,7 @@
 <p> 6. Выпекайте 10 минут. Выньте противень из духовки и переверните картофель, затем поставьте противень обратно в духовку. Выпекайте 7-10 минут при 240 градусах. Блюдо готово!</p> -->
 
  <div class ="recipes-item">
-<h2> Паста с соусом песто и сыром </h2>
+<h2><a href="{% url 'pastapesto'%}" class="item" > Паста с соусом песто и сыром</a>   </h2>
 <p> Время приготовления - 30 минут </p>
 <!--<h2>Ингредиенты</h2> -->
 <ul class = "ingredients-items">
@@ -217,7 +217,7 @@
 	<li> Оливковое масло — 4 ст.л. </li>
 	<li> Соль — по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture9.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-74.userapi.com/impg/RSar10LBhwP6z4XrTIH0nkVw7_0q-Pk01U61wg/Se7qX7rQkBI.jpg?size=1440x753&quality=96&sign=ef8405fab76090db07130be56335b3bc&type=album" width="400px" height="250px">
 </div>
 </div>
 <!--<h2>Рецепт:</h2>
@@ -229,7 +229,7 @@
 -->
 <div class="recipes">
  <div class ="recipes-item">
-<h2> Паста болоньезе с фаршем </h2>
+<h2><a href="{% url 'bolognese'%}" class="item" > Паста болоньезе с фаршем </a> </h2>
 <p> Время приготовления - 1 час 20 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items">
@@ -250,7 +250,7 @@
 	<li> Базилик свежий - 1 пучок </li>
 	<li> Сыр (пармезан) — 100 гр </li>
 </ul>
-<img class="recipes-img" src = "img/picture10.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-70.userapi.com/impg/M1lsIXPj6zrIMKDbQSa_SuyIxv7M-4Z3bHDIAw/IjzkaCOvSCI.jpg?size=600x400&quality=96&sign=4b9315c2d26f276b0fc7832c170d272c&type=album" width="400px" height="250px">
 </div>
 <!--<h2>Рецепт:</h2>
 <p> 1. Разогрейте масло в глубокой большой кастрюле, добавьте нарезанный кубиками лук и обжарьте его до прозрачности. Выложите фарш и жарьте до готовности, помешивая. </p>
@@ -261,7 +261,7 @@
 <p> 6. Выложите пасту на блюдо, полейте соусом, посыпьте тертым пармезаном и украсьте мелко порубленным базиликом. Блюдо готово! </p>
 -->
  <div class ="recipes-item">
-<h2> Оливье с курицей </h2>
+	 <h2><a href="{% url 'olivier'%}" class="item" >  Оливье с курицей </a>  </h2>
 <p> Время приготовления - 1 час </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-salad">
@@ -277,7 +277,7 @@
     <li> Перец черный молотый - по вкусу </li>
     <li> Петрушка, укроп — по желанию </li>
 </ul>
-<img class="recipes-img" src = "img/picture11.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-26.userapi.com/impg/NZKUffDMT_qXQhHZdhKBeePtVZmNhzF50jwA_g/weFLnYahPN0.jpg?size=1300x864&quality=96&sign=934ea5a5a5433a38f96b17a6b3103233&type=album" width="400px" height="250px">
 </div>
 <!--<h2>Рецепт:</h2>
 <p> 1. Картофель и морковь нужно отварить заранее, чтобы они успели остыть.</p>
@@ -288,7 +288,7 @@
 <p> 6. В майонез добавляем щепотку соли и перец. Непосредственно перед подачей заправляем оливье с курицей майонезом и перемешиваем. Украшаем салат  зеленью по желанию. Блюдо готово! </p> -->
 
  <div class ="recipes-item">
-<h2>Салат Мимоза </h2>
+<h2><a href="{% url 'mimosa'%}" class="item" > Салат Мимоза  </a></h2>
 <p> Время приготовления - 1 час </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-salad1">
@@ -299,7 +299,7 @@
 	<li> Рыбные консервы — 250 г </li>
 	<li> Майонез — по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture12.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-74.userapi.com/impg/pKkW3_7RaGl4XaZPELGNE3WVduyxfFfLEWQsJw/vrCDsRNtgNo.jpg?size=900x675&quality=96&sign=ce8a988627d92e2b49301e759690e728&type=album" width="400px" height="250px">
 </div>
 </div>
 <!--<h2>Рецепт:</h2>
@@ -309,7 +309,7 @@
 
 <div class="recipes">
  <div class ="recipes-item">
-<h2>Салат с курицей и ананасами </h2>
+<h2><a href="{% url 'chikenpineapple'%}" class="item" > Салат с курицей и ананасами </a> </h2>
 <p> Время приготовления - 30 минут </p>
 <!--<h2> Ингредиенты </h2> -->
 <ul class="ingredients-items-salad3">
@@ -321,7 +321,7 @@
 	<li> Соль — по вкусу </li>
 	<li> Перец черный молотый — по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture13.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-65.userapi.com/impg/TqKKB4zr9My-dA6Xx0FPsEamQypXNhQFaPA1qQ/W92czco5OcY.jpg?size=640x500&quality=96&sign=0ff0d1a51c30d95f1204667a5986a24a&type=album" width="400px" height="250px">
 </div>
 <!--<h2>Рецепт:</h2>
 <p> 1. Куриное филе отварить, нарезать небольшими кубиками или соломкой. </p>
@@ -332,7 +332,7 @@
 <p> 6. По вкусу немного посолить и поперчить перцем. Блюдо готово!</p> -->
 
 <div class ="recipes-item">
-<h2> Рис с яйцом по-китайски </h2>
+<h2><a href="{% url 'chinese'%}" class="item" > Рис с яйцом по-китайски </a>   </h2>
 <p> Время приготовления - 40 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-rice">
@@ -345,7 +345,7 @@
 	<li> Соевый соус — 1 ст. ложка </li>
     <li> Соль — по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture14.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-17.userapi.com/impg/UZK4GI5WToO6F7oj6o_QID9OQ3BqlDWvkyOe1w/dylTxTS9UuM.jpg?size=1200x800&quality=96&sign=068f97f23924225ad562503e1dd57fe3&type=album" width="400px" height="250px">
 </div>
 <!--<h2> Рецепт: </h2>
 <p> 1. Варить рис около 10–12 минут, почти до готовности. Промыть под холодной водой. </p>
@@ -353,7 +353,7 @@
 <p> 3. Разогреть масло в сковородке. Добавить раздавленный чеснок, мелко нарезанный лук, отваренный горошек и обжаривать, помешивая, 1–2 минуты. Добавить рис, перемешать. Добавить яйца, соевый соус и щепотку соли, перемешать. При подаче украсить нарезанным зеленым луком. Блюдо готово!</p> -->
 
 <div class ="recipes-item">
-<h2>Гуляш из говядины с картофелем </h2>
+<h2><a href="{% url 'goulash'%}" class="item" > Гуляш из говядины с картофелем </a>  </h2>
 <p> Время приготовления - 1 час 30 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items">
@@ -371,7 +371,7 @@
 	<li> Перец черный молотый - 0,5 ч. л. </li>
 	<li> Соль - по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture15.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-15.userapi.com/impg/fTmCE6vwnwxxVrYSr7UIKbCUAUllSY3ICBbIJg/lhtzqzRvYXA.jpg?size=620x412&quality=96&sign=df4b47253954747b4c6765f668ed9474&type=album" width="400px" height="250px">
 </div>
 </div>
 <!--<h2> Рецепт: </h2>
@@ -385,7 +385,7 @@
 
 <div class="recipes">
  <div class ="recipes-item">
-<h2> Теплый салат с рукколой и говядиной </h2>
+<h2><a href="{% url 'rukkbeef'%}" class="item" > Теплый салат с рукколой и говядиной  </a> </h2>
 <p> Время приготовления - 40 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-salad4">
@@ -398,7 +398,7 @@
 	<li> Соль </li>
 	<li> Кориандр - по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture16.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-67.userapi.com/impg/mYvaim8l2ouDSE8hxEpdj3lSkzVQUJDgRKUkyA/2NsaPaXZbFc.jpg?size=1680x1120&quality=96&sign=15719c5c2cc1c904adf607fcefc0a12f&type=album" width="400px" height="250px">
 </div>
 <!--<h2> Рецепт: </h2>
 <p> 1. Говядину нарежьте сначала тонкими пластинками, а затем - полосками. </p>
@@ -407,7 +407,7 @@
 <p> 4. На блюдо разложите вымытую рукколу и ломтики помидоров. Добавьте мясо и сок от жарки, по желанию сбрызните бальзамическим соусом. Блюдо готово! </p>-->
 
  <div class ="recipes-item">
-<h2> Чахохбили с курицей и картофелем </h2>
+<h2><a href="{% url 'chakhokhbili'%}" class="item" > Чахохбили с курицей и картофелем </a>  </h2>
 <p> Время приготовления - 45 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-meat">
@@ -426,7 +426,7 @@
 	<li> Перец черный молотый  - по вкусу </li>
 
 </ul>
-<img class="recipes-img" src = "img/picture17.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-53.userapi.com/impg/YU1cVQLg2jdJs1lsjBaRBvWr2hh-RFwE1K6Ulw/jEfScbhIxY8.jpg?size=960x960&quality=96&sign=721879945eed127a312e5421f54cb7ce&type=album" width="400px" height="250px">
 </div>
 <!--<h2> Рецепт: </h2>
 <p> 1. Картофель очистите, нарежьте на средние кусочки и поставьте вариться. Варите до полуготовности. </p>
@@ -439,7 +439,7 @@
 <p> 8. Оставьте сковороду под крышкой настояться еще на 10 минут. Блюдо готово! </p> -->
 
  <div class ="recipes-item">
-<h2> Ризотто с курицей и пармезаном </h2>
+<h2><a href="{% url 'risotto'%}" class="item" > Ризотто с курицей и пармезаном  </a> </h2>
 <p> Время приготовления - 40 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-rice2">
@@ -454,7 +454,7 @@
 	<li> Соль — по вкусу </li>
 	<li> Перец черный молотый — по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture18.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-79.userapi.com/impg/IbJCPvSG1Rg8NaeIR5QIeGkEY7pPMTu7ZWwwXQ/1LI0u3JDSyo.jpg?size=2000x1400&quality=96&sign=b0280d772199c3023eb46135707dadb9&type=album" width="400px" height="250px">
 </div>
 </div>
 <!--<h2> Рецепт: </h2>
@@ -466,7 +466,7 @@
 
 <div class="recipes">
  <div class ="recipes-item">
-<h2> Шаурма домашняя с курицей </h2>
+<h2><a href="{% url 'shawarma'%}" class="item" > Шаурма домашняя с курицей  </a>  </h2>
 <p> Время приготовления - 20 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items">
@@ -481,7 +481,7 @@
 	<li> Яйца — 2 шт. </li>
 	<li> Масло растительное — 1 ст. л. </li>
 </ul>
-<img class="recipes-img" src = "img/picture19.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-61.userapi.com/impg/ilsqJ67jbXpDrGroCmkk-u6JNisHi6Obm46igQ/NMuwlJlpUMY.jpg?size=1200x799&quality=96&sign=90b9d6833b03dd599d6a861fa994f193&type=album" width="400px" height="250px">
 </div>
 <!--<h2> Рецепт: </h2>
 <p> 1. Курицу отвариваем, режем на отдельные кусочки. Обжариваем до появления небольшой корочки. </p>
@@ -493,7 +493,7 @@
 
 
  <div class ="recipes-item">
-<h2> Картофельная запеканка с фаршем </h2>
+<h2><a href="{% url 'zapekanka'%}" class="item" > Картофельная запеканка с фаршем  </a>  </h2>
 <p> Время приготовления - 35 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-pie">
@@ -507,7 +507,7 @@
 	<li> Перец черный молотый — по вкусу </li>
 	<li> Масло растительное — по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture20.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-46.userapi.com/impg/bJiY9itdBiEzsBGqiAqb39aGEFB0cWMLTWGI8g/mlLWQb981LU.jpg?size=1200x800&quality=96&sign=ef7d87c5de1ca6400ae453b7b6eba1b0&type=album" width="400px" height="250px">
 </div>
 <!--<h2> Рецепт: </h2>
 <p> 1. Картофель отчистить, отварить до готовности. </p>
@@ -521,7 +521,7 @@
 
 
  <div class ="recipes-item">
-<h2> Лазанья с мясным фаршем </h2>
+<h2><a href="{% url 'lasagna'%}" class="item" > Лазанья с мясным фаршем </a>   </h2>
 <p> Время приготовления - 1 час </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-meat2">
@@ -534,7 +534,7 @@
 	<li> Макароны (лазанья) — 10 шт. </li>
 	<li> Сыр — 500 г </li>
 </ul>
-<img class="recipes-img" src = "img/picture21.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-80.userapi.com/impg/Qf8EXC47lGOwtRTEzPOYV1nNg9IMJKuhtOZjZA/3xqPdsnU7lQ.jpg?size=1600x1068&quality=96&sign=9ae732dbbecf0665c660a3af8f27e5d2&type=album" width="400px" height="250px">
 </div>
 </div>
 <!--<h2> Рецепт: </h2>
@@ -547,7 +547,7 @@
 
 <div class="recipes">
  <div class ="recipes-item">
-<h2> Вок с курицей и рисом </h2>
+<h2><a href="{% url 'wok'%}" class="item" > Вок с курицей и рисом </a>  </h2>
 <p> Время приготовления - 40 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items">
@@ -565,7 +565,7 @@
 	<li> Перец черный молотый </li>
 	<li> Яйца — 2 шт. </li>
 </ul>
-<img class="recipes-img" src = "img/picture22.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-41.userapi.com/impg/9v4raExbI_qrRmL_TFUCyDFvWIaJOQ12-sI-xw/_OAujglkHzA.jpg?size=1024x1024&quality=96&sign=6c678277ee54d735ad1e10cb12cdbfe3&type=album" width="400px" height="250px">
 </div>
 <!--<h2> Рецепт: </h2>
 <p> 1. Налить в сковородку масло и разогреть. Выложить куриное филе и обжарить его секунд 20, переворачивая. </p>
@@ -578,7 +578,7 @@
 
 
  <div class ="recipes-item">
-<h2> Греческий салат </h2>
+<h2><a href="{% url 'greek'%}" class="item" > Греческий салат </a>  </h2>
 <p> Время приготовления - 15 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-salad5">
@@ -594,7 +594,7 @@
 	<li> Соль — по вкусу </li>
 	<li> Перец черный молотый — по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture23.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun59-2.userapi.com/impg/AWHgTpc8i315UMkhS5BaLzBEJPpm5KuWqpiJyA/TlXUsIXuv_E.jpg?size=1680x1120&quality=96&sign=e33d71dd91bccd98a9dd4af4012823fc&type=album" width="400px" height="250px">
 </div>
 <!--<h2> Рецепт: </h2>
 <p> 1. Лук нарезать тонкими кольцами, помидоры, перец и огурцы — небольшими ломтиками. </p>
@@ -603,7 +603,7 @@
 
 
  <div class ="recipes-item">
-<h2> Салат с моцареллой и рукколой </h2>
+<h2><a href="{% url 'mozzarukk'%}" class="item" > Салат с моцареллой и рукколой</a>  </h2>
 <p> Время приготовления - 20 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-salad6">
@@ -613,7 +613,7 @@
 	<li> Оливковое масло — 3 ст. л. </li>
 	<li> Бальзамический уксус — 2 ст. л. </li>
 </ul>
-<img class="recipes-img" src = "img/picture24.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-64.userapi.com/impg/o8kvCQCvCarBk9p6YzP7IEwe5UTKFDYEfi5bdA/gR6F1taB-Xs.jpg?size=1024x608&quality=96&sign=e178e40698d47210bdb2acace47d5b73&type=album" width="400px" height="250px">
 </div>
 </div>
 <!--<h2> Рецепт: </h2>
@@ -623,7 +623,7 @@
 
 <div class="recipes">
  <div class ="recipes-item">
-<h2> Фаршированный перец </h2>
+<h2><a href="{% url 'stuffedpep'%}" class="item" > Фаршированный перец </a>  </h2>
 <p> Время приготовления - 1 час 20 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items">
@@ -638,7 +638,7 @@
 	<li> Масло растительное — 2 ст. л. </li>
 	<li> Перец черный молотый — по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture25.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-19.userapi.com/impg/vD2rZ_AyjVVi4s8KFMysJiSRqiIDFaJHr1jF9g/VDhQHseeBiA.jpg?size=1200x800&quality=96&sign=b7b71b067eb86d42ebaee8c8235caa1e&type=album" width="400px" height="250px">
 </div>
 <!--<h2> Рецепт: </h2>
 <p> 1. Лук мелко нарезать, морковь натереть. Половину лука и моркови обжарить на сковороде. </p>
@@ -649,7 +649,7 @@
 
 
  <div class ="recipes-item">
-<h2> Куриный суп по-домашнему </h2>
+<h2><a href="{% url 'chicksoup'%}" class="item" > Куриный суп по-домашнему </a>   </h2>
 <p> Время приготовления - 1 час </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-soup">
@@ -662,7 +662,7 @@
 	<li> Соль — по вкусу </li>
 	<li> Перец черный молотый — по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture26.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-43.userapi.com/impg/ETOg2hv0h9eDgyM0saO_opKvBMi_z7iig_e1IA/f90BGOS3Y0g.jpg?size=1335x1333&quality=96&sign=187ef3721ed691b0cca5be17fac23130&type=album" width="400px" height="250px">
 </div>
 <!--<h2> Рецепт: </h2>
 <p> 1. Промытую курицу кладем в кастрюлю, заливаем холодной водой, ставим на сильный огонь. Когда вода закипит, убавляем огонь до минимума, солим по вкусу, кладем неочищенную мытую луковицу и закрываем крышкой на 30 минут. </p>
@@ -671,7 +671,7 @@
 
 
  <div class ="recipes-item">
-<h2> Пицца Маргарита </h2>
+<h2><a href="{% url 'pizzamar'%}" class="item" > Пицца Маргарита </a>  </h2>
 <p> Время приготовления - 1 час </p>
 <!--<h2> Ингредиенты </h2> -->
 <ul class="ingredients-items">
@@ -686,7 +686,7 @@
 	<li> Сыр (моцарелла) — 200 гр </li>
 	<li> Помидоры черри — 8 шт.</li>
 </ul>
-<img class="recipes-img" src = "img/picture27.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-23.userapi.com/impg/gjcBh3WiOHNr1IZJBfLHhyFSEy6jP7HPGonqGA/D-d4Iq5KXP4.jpg?size=1455x970&quality=96&sign=0a3fe2d85239b75113430230c8fccb3f&type=album" width="400px" height="250px">
 </div>
 </div>
 <!--<h2> Рецепт: </h2>
@@ -704,7 +704,7 @@
 
 <div class="recipes">
  <div class ="recipes-item">
-<h2> Ролл с креветками в лаваше </h2>
+<h2><a href="{% url 'shrimproll'%}" class="item" > Ролл с креветками в лаваше </a> </h2>
 <p> Время приготовления - 20 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items">
@@ -720,7 +720,7 @@
 	<li> Оливковое масло — 1 ст. л. </li>
 	<li> Лаваш — 2 шт. </li>
 </ul>
-<img class="recipes-img" src = "img/picture28.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-45.userapi.com/impg/VXnqu6dZTfZt6uPY_FQbFkBgrNcIhiCVaw7YJg/MNHeC1an2wg.jpg?size=1000x667&quality=96&sign=a0d04195656e935abccf68310f2ebe3f&type=album" width="400px" height="250px">
 </div>
 <!--<h2> Рецепт: </h2>
 <p> 1. Размораживаем креветки в горячей воде, очищаем и хорошо отжимаем их руками. Обжариваем на подогретой сковородке с раздавленным зубчиком чеснока. Оставляем в сковороде остывать. </p>
@@ -731,7 +731,7 @@
 
 
  <div class ="recipes-item">
-<h2> Сырный суп по-французски с курицей </h2>
+<h2><a href="{% url 'frenchsoup'%}" class="item" > Сырный суп по-французски с курицей </a> </h2>
 <p> Время приготовления - 1 час </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-soup2">
@@ -747,7 +747,7 @@
 	<li> Гренки </li>
 	<li> Черный перец горошком </li>
 </ul>
-<img class="recipes-img" src = "img/picture29.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-75.userapi.com/impg/czXMImVCP9ubVH6LiAnQ15UoGLw8Pe-l1l0x8g/fBXaPQEHbMc.jpg?size=1000x1000&quality=96&sign=40cd8db0d3fd1fc9c6c2234c2ed45ab5&type=album" width="400px" height="250px">
 </div>
 <!--<h2> Рецепт: </h2>
 <p> 1. Залить кастрюлю и положить мясо. Как только бульон начнет кипеть, добавить 1 чайную ложку соли, пару горошков черного перца, 2–3 листика лаврового листа. Варить с момента закипания 20 минут. Затем мясо достать. </p>
@@ -758,7 +758,7 @@
 
 
  <div class ="recipes-item">
-<h2> Бефстроганов </h2>
+<h2><a href="{% url 'beefstroganoff'%}" class="item" > Бефстроганов</a>  </h2>
 <p> Время приготовления - 40 минут </p>
 <!--<h2> Ингредиенты </h2>-->
 <ul class="ingredients-items-meat3">
@@ -772,7 +772,7 @@
 	<li> Масло растительное — 50 мл </li>
 	<li> Перец черный молотый — по вкусу </li>
 </ul>
-<img class="recipes-img" src = "img/picture30.png" width="400px" height="250px">
+<img class="recipes-img" src = "https://sun9-57.userapi.com/impg/FDe_-ZSGAl3r9fvjwzqsTkuVhu4jPn54gmx9Qg/XOkPg0BozhA.jpg?size=1000x667&quality=96&sign=2444248e639f5ec67851bf0a0cd01c06&type=album" width="400px" height="250px">
 </div>
 </div>
 <!--<h2> Рецепт: </h2>
