@@ -1,0 +1,16 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+
+<form class="form"  method="post">
+  <h2>Foodfinder</h2>
+  {% csrf_token %}
+  {{ form.as_p }}
+
+  <p><a href="{% url 'signup' %}">Еще не с нами?</a></p>
+  <button type="submit">Войти</button>
+</form>
+{% endblock %}

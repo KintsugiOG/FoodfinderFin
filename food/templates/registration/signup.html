@@ -1,0 +1,14 @@
+<!-- templates/registration/signup.html -->
+{% extends "base.html" %}
+
+{% block title %}Регистрация{% endblock %}
+
+{% block content %}
+
+  <form class="form" method="post">
+    <h2>BECOME A FOODFINDER</h2>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Создать аккаунт</button>
+  </form>
+{% endblock %}
